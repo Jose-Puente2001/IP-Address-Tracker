@@ -13,8 +13,9 @@ async function getdata(e){
        body: data,
    })
 
-   const get = await response.json()
-   console.log(get)
-
+   let get = await response.json()
+   const long = get.longitude
+   const lat = get.latitude
+  
+  
 }
-
