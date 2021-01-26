@@ -1,21 +1,17 @@
+import Api from './api.js'
+
 const form = document.getElementById('form');
-form.addEventListener('submit', getdata)
+form.addEventListener('submit', FetchApi)
 
 
-async function getdata(e){
-	
-    e.preventDefault()
+ function FetchApi(e){
 
-   const data = new FormData(form)
+  e.preventDefault()
 
-   const response = await fetch('Backend.php',{
-       method: 'post',
-       body: data,
-   })
+  Api()
 
-   let get = await response.json()
-   const long = get.longitude
-   const lat = get.latitude
-  
-  
 }
+
+
+
+ 
