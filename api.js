@@ -1,7 +1,8 @@
-
-export default async function Api(){
-
-const data = new FormData(form)
+export default class Fetch{
+   
+   async api(){
+      
+   const data = new FormData(form)
 
   const response = await fetch('Backend.php',{
        method: 'post',
@@ -9,10 +10,9 @@ const data = new FormData(form)
    })
 
    let get = await response.json()
-   console.log(get)
+    return get
 
- 
+   }
 
 }
-
 

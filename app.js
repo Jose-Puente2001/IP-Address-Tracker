@@ -1,4 +1,5 @@
-import Api from './api.js'
+import Fetch from './api.js'
+
 
 const form = document.getElementById('form');
 form.addEventListener('submit', FetchApi)
@@ -7,11 +8,18 @@ form.addEventListener('submit', FetchApi)
  function FetchApi(e){
 
   e.preventDefault()
-
-  Api()
-
+  
+  Instancia()
+ 
 }
 
+
+function Instancia(){
+   
+  const fetch = new Fetch 
+  fetch.api()
+  
+}
 
 
  
