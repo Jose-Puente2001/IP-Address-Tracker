@@ -1,17 +1,13 @@
- class map{
+export default class Mapa{
 
 
-   async tileLayer(){
+    tileLayer(ip){
      
-    let map = await L.map('map').setView([51.505, -0.09], 13);
+    let map =  L.map('map').setView([ip.latitude, ip.longitude], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
      }).addTo(map);
 
-	}
-
-	async marker(){
-        
-    await L.marker([51.5, -0.09]).addTo(map)
+     L.marker([ip.latitude, ip.longitude]).addTo(map)
     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
     .openPopup();
 
