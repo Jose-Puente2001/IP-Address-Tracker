@@ -2,13 +2,10 @@ export default class Fetch{
    
    async api(){
       
-   const data = new FormData(form)
+   const ip = document.getElementById('ip').value
 
-  const response = await fetch('Backend.php',{
-       method: 'post',
-       body: data
-   })
-
+  const response = await fetch('http://ipwhois.app/json/' + ip)
+     
    let get = await response.json()
     return get
 
