@@ -1,8 +1,8 @@
 export default function Mapa(ip){
    
     let map = L.map('map').setView([ip.latitude, ip.longitude], 13);
-    //condición que evalua si el mapa fue inicializado
     let container = L.DomUtil.get('map');
+    //condición que evalua si el mapa fue inicializado
       if(container != null){
         container._leaflet_id = null;
       }
