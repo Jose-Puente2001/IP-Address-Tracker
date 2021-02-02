@@ -1,4 +1,6 @@
 $color-title: #ffffff;
+$fuente-title: 'Rubik', sans-serif;
+$color-button: 	#efefef;
 
 
 
@@ -15,30 +17,52 @@ body{
 
 header{
 
-
-position: relative;
 display: inline-block;
+position: relative;
 
 
+img{
 
+  width: 1280px;
+}
 
-h1{
+  h1{
 	position: absolute;
 	top: 70px;
 	left: 50px;
 	color: $color-title;
+	font-family: $fuente-title;
 	
 }
+
+
 
 form{
 
  position: absolute;
 	top: 156px;
 	left: 50px;
+
+
+#ip{
+
+	font-size: 18px;
+}
+
+#button{
+    
+   font-size: 18px;
+   color: $color-button;
+   margin-right: 3px;
+}
 	
 }
 
 }
+
+
+
+
 
 #map{
 

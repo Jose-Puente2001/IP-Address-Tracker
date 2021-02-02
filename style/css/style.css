@@ -6,19 +6,31 @@ body {
 }
 
 header {
-  position: relative;
   display: inline-block;
+  position: relative;
+}
+header img {
+  width: 1280px;
 }
 header h1 {
   position: absolute;
   top: 70px;
   left: 50px;
   color: #ffffff;
+  font-family: "Rubik", sans-serif;
 }
 header form {
   position: absolute;
   top: 156px;
   left: 50px;
+}
+header form #ip {
+  font-size: 18px;
+}
+header form #button {
+  font-size: 18px;
+  color: #efefef;
+  margin-right: 3px;
 }
 
 #map {
