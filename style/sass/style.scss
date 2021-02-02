@@ -1,6 +1,6 @@
 $color-title: #ffffff;
 $fuente-title: 'Rubik', sans-serif;
-$color-button: 	#efefef;
+$color-button: 	#080707;
 
 
 
@@ -10,6 +10,7 @@ body{
   padding: 0;
   max-width: 1440px;
   width: 100%;
+ 
   
 }
 
@@ -20,11 +21,12 @@ header{
 display: inline-block;
 position: relative;
 
-
 img{
 
   width: 1280px;
 }
+
+
 
   h1{
 	position: absolute;
@@ -32,7 +34,7 @@ img{
 	left: 50px;
 	color: $color-title;
 	font-family: $fuente-title;
-	
+  margin-left: 34%;
 }
 
 
@@ -42,25 +44,26 @@ form{
  position: absolute;
 	top: 156px;
 	left: 50px;
+   margin-left: 30%;
 
 
 #ip{
 
 	font-size: 18px;
+  width: 320px;
 }
 
 #button{
     
    font-size: 18px;
    color: $color-button;
-   margin-right: 3px;
+   margin-left: -8px;
 }
 	
 }
 
+
 }
-
-
 
 
 

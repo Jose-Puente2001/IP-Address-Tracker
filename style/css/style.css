@@ -18,19 +18,22 @@ header h1 {
   left: 50px;
   color: #ffffff;
   font-family: "Rubik", sans-serif;
+  margin-left: 34%;
 }
 header form {
   position: absolute;
   top: 156px;
   left: 50px;
+  margin-left: 30%;
 }
 header form #ip {
   font-size: 18px;
+  width: 320px;
 }
 header form #button {
   font-size: 18px;
-  color: #efefef;
-  margin-right: 3px;
+  color: #080707;
+  margin-left: -8px;
 }
 
 #map {
