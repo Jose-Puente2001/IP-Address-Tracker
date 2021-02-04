@@ -5,6 +5,11 @@ body {
   width: 100%;
 }
 
+#map {
+  width: 1280px;
+  height: 800px;
+}
+
 header {
   display: inline-block;
   position: relative;
@@ -34,11 +39,6 @@ header form #button {
   font-size: 18px;
   color: #080707;
   margin-left: -8px;
-}
-
-#map {
-  width: 100%;
-  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
