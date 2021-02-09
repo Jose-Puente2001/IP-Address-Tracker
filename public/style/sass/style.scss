@@ -9,16 +9,16 @@ body{
   
   margin: 0;
   padding: 0;
-  max-width: 1440px;
-  width: 100%;
- 
+  width: 100vw;
+  height: 100vh;
+  font-family: $fuente-title;
   
 }
 
 #map{
 
-  width: 1280px;
-  height: 800px;
+  width: 100%;
+  height: 63%;
 }
 
 
@@ -41,7 +41,6 @@ img{
 	top: 70px;
 	left: 50px;
 	color: $color-title;
-	font-family: $fuente-title;
   margin-left: 34%;
 }
 
