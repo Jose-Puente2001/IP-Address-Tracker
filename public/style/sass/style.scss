@@ -80,3 +80,76 @@ form{
   justify-content: space-evenly;
   padding: 15px;
 }
+
+
+
+@media screen and (max-width: 340px){
+
+body{
+  
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 96vh;
+  font-family: $fuente-title;
+  
+}
+
+
+header{
+
+display: inline-block;
+position: relative;
+
+
+img{
+
+  width: 340px;
+  height: 220px;
+}
+
+
+
+  h1{
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  color: $color-title;
+  margin-left: -12px;
+}
+
+
+
+form{
+
+ position: absolute;
+  top: 156px;
+  left: 50px;
+   margin-left: -12vw;
+
+
+#ip{
+
+  font-size: 15px;
+  width: 280px;
+}
+
+#button{
+    
+   font-size: 18px;
+   color: $color-button;
+   margin-left: -8px;
+}
+  
+}
+
+
+}
+
+
+  #ui{
+
+    flex-direction: column;
+  }
+
+}

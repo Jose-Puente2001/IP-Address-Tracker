@@ -47,4 +47,49 @@ header form #button {
   padding: 15px;
 }
 
+@media screen and (max-width: 340px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 96vh;
+    font-family: "Rubik", sans-serif;
+  }
+
+  header {
+    display: inline-block;
+    position: relative;
+  }
+  header img {
+    width: 340px;
+    height: 220px;
+  }
+  header h1 {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: #ffffff;
+    margin-left: -12px;
+  }
+  header form {
+    position: absolute;
+    top: 156px;
+    left: 50px;
+    margin-left: -12vw;
+  }
+  header form #ip {
+    font-size: 15px;
+    width: 280px;
+  }
+  header form #button {
+    font-size: 18px;
+    color: #080707;
+    margin-left: -8px;
+  }
+
+  #ui {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
