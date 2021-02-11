@@ -11,31 +11,31 @@ body {
   height: 62%;
 }
 
-header {
+.header {
   display: inline-block;
   position: relative;
 }
-header img {
+.header .header_imagen {
   width: 1280px;
 }
-header h1 {
+.header .header_title {
   position: absolute;
   top: 70px;
   left: 50px;
   color: #ffffff;
   margin-left: 34%;
 }
-header form {
+.header #form {
   position: absolute;
   top: 156px;
   left: 50px;
   margin-left: 30%;
 }
-header form #ip {
+.header #form #ip {
   font-size: 18px;
   width: 320px;
 }
-header form #button {
+.header #form #button {
   font-size: 18px;
   color: #080707;
   margin-left: -8px;
@@ -46,7 +46,58 @@ header form #button {
   justify-content: space-evenly;
   padding: 15px;
 }
+#ui .ui_items {
+  text-align: center;
+}
 
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 96vh;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .header {
+    display: inline-block;
+    position: relative;
+  }
+  .header .header_imagen {
+    width: 768px;
+    height: 220px;
+  }
+  .header .header_title {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: #ffffff;
+    margin-left: 210px;
+  }
+  .header #form {
+    position: absolute;
+    top: 156px;
+    left: 50px;
+    margin-left: 24vw;
+  }
+  .header #form #ip {
+    font-size: 15px;
+    width: 280px;
+  }
+  .header #form #button {
+    font-size: 18px;
+    color: #080707;
+    margin-left: -8px;
+  }
+
+  #ui {
+    flex-direction: column;
+    align-items: center;
+  }
+  #ui .ui_items {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 340px) {
   body {
     margin: 0;
@@ -56,39 +107,26 @@ header form #button {
     font-family: "Rubik", sans-serif;
   }
 
-  header {
+  .header {
     display: inline-block;
     position: relative;
   }
-  header img {
+  .header .header_imagen {
     width: 340px;
     height: 220px;
   }
-  header h1 {
+  .header .header_title {
     position: absolute;
     top: 70px;
     left: 50px;
     color: #ffffff;
     margin-left: -12px;
   }
-  header form {
+  .header #form {
     position: absolute;
     top: 156px;
     left: 50px;
     margin-left: -12vw;
-  }
-  header form #ip {
-    font-size: 15px;
-    width: 280px;
-  }
-  header form #button {
-    font-size: 18px;
-    color: #080707;
-    margin-left: -8px;
-  }
-
-  #ui {
-    flex-direction: column;
   }
 }
 
