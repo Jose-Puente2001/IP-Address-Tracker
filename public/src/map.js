@@ -1,29 +1,17 @@
 export default function Mapa(ip){
    
-    let map = L.map('map').setView([ip.latitude, ip.longitude], 13);
-    
-    setInterval(validar_inicializado_mapa, 3000)
-    
-    //titlelayer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-     }).addTo(map);
-       
+   const mapa = L.map('map').setView([ip.latitude, ip.longitude], 13);
+   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+     }).addTo(mapa);
+           
     //marker
-     L.marker([ip.latitude, ip.longitude]).addTo(map)
-    .bindPopup('Estás aquí')
+     L.marker([ip.latitude, ip.longitude])
+    .bindPopup('Estás aquí').addTo(mapa)
     .openPopup();
       
 }
 
 
-function validar_inicializado_mapa(){
 
-let container = L.DomUtil.get('map');
-    //condición que evalua si el mapa fue inicializado
-    if(container != null){
-       
-       container._leaflet_id = null;
-    }
 
-}
 
