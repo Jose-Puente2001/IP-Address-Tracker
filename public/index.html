@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	 <meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <title>IP Address Tracker</title>
-	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-  crossorigin=""/>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style/css/style.css">
-</head>
-<body>
-	<div id="container">
-    <header class="header">
-		<h1 class="header_title">IP Address Tracker</h1>
-	</header>
-		<form id="form">
-		<input id="ip" type="text" placeholder="Buscar cualquier dirección IP o dominio" />
-		<button id="button"><i class="fas fa-search"></i></button>
-	 </form>
-	 </div>
-     <div id="ui">
-	  <span class="ui_items">Región<h2 id="region">England</h2></span>
-	  <span class="ui_items">Ciudad<h2 id="city">London</h2></span>
-	  <span class="ui_items">ISP<h2 id="isp">CMC MARKETS PLC</h2></span>
-	 </div>
-     <div id="map">
-      
-     </div>
-	 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-  crossorigin=""></script>
-	 <script type="module" src="src/app.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IP Address Tracker</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style/css/style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header class="header">
+                <h1 class="header_title">IP Address Tracker</h1>
+            </header>
+            <form id="form">
+                <input id="ip" type="text" placeholder="Buscar cualquier dirección IP o dominio" />
+                <button id="button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div id="ui">
+            <span class="ui_items">
+                Región
+                <h2 id="region">England</h2>
+            </span>
+            <span class="ui_items">
+                Ciudad
+                <h2 id="city">London</h2>
+            </span>
+            <span class="ui_items">
+                ISP
+                <h2 id="isp">CMC MARKETS PLC</h2>
+            </span>
+        </div>
+        <div id="map"></div>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <script type="module" src="src/app.js"></script>
+    </body>
 </html>
 

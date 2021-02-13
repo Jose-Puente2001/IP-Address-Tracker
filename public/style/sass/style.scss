@@ -1,132 +1,91 @@
 $color-title: #ffffff;
-$fuente-title: 'Rubik', sans-serif;
-$color-button:  #080707;
+$fuente-title: "Rubik", sans-serif;
+$color-button: #080707;
 
-
-
-
-body{
-  
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  font-family: $fuente-title;
-  background-image: url('/images/pattern-bg.png');
-  background-repeat:  no-repeat;
-  overflow: hidden;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: $fuente-title;
+    background-image: url("/images/pattern-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-#map{
-
-  width: 100%;
-  height: 62%;
+#map {
+    width: 100%;
+    height: 62%;
 }
 
+#container {
+    width: 100%;
+    height: 230px;
 
-#container{
-  
-  width: 100%;
-  height: 230px;
-  
-.header{
-
-.header_title{
- color: $color-title;
- text-align: center;
-
-}
-  
-}
-
-#form{
-
- text-align: center;
-
-#ip{
-
-  font-size: 18px;
-  width: 320px;
-
-}
-
-#button{
-    
-font-size: 18px;
-color: $color-button;
- margin-left: -8px;
-
- }
-
- }
-
-}
-
-
-
-
-#ui{
-
-  display: flex;
-  justify-content: space-evenly;
-  padding: 15px;
-
-  .ui_items{
-    text-align: center;
-  }
-}
-
-
-
- 
-
-@media screen and(max-width: 768px){
-
-body{
-  
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 96vh;
-  font-family: $fuente-title;
-  
-}
-
-
-#container{
-
-#form{
-
-#ip{
-
-  font-size: 15px;
-  width: 280px;
-}
-
-#button{
-    
-   font-size: 18px;
-   color: $color-button;
-   margin-left: -8px;
-}
-
-}
-
-}
-
-#ui{
-
-    flex-direction: column;
-    align-items: center;
-
-    .ui_items{
-      text-align: center;
+    .header {
+        .header_title {
+            color: $color-title;
+            text-align: center;
+        }
     }
-  }
 
+    #form {
+        text-align: center;
+
+        #ip {
+            font-size: 18px;
+            width: 320px;
+        }
+
+        #button {
+            font-size: 18px;
+            color: $color-button;
+            margin-left: -8px;
+        }
+    }
 }
 
+#ui {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
 
+    .ui_items {
+        text-align: center;
+    }
+}
 
+/*Responsive*/
+@media screen and(max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 96vh;
+        font-family: $fuente-title;
+    }
 
+    #container {
+        #form {
+            #ip {
+                font-size: 15px;
+                width: 280px;
+            }
 
+            #button {
+                font-size: 18px;
+                color: $color-button;
+                margin-left: -8px;
+            }
+        }
+    }
+
+    #ui {
+        flex-direction: column;
+        align-items: center;
+
+        .ui_items {
+            text-align: center;
+        }
+    }
+}
