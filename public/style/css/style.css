@@ -4,6 +4,9 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Rubik", sans-serif;
+  background-image: url("/images/pattern-bg.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #map {
@@ -11,31 +14,22 @@ body {
   height: 62%;
 }
 
-.header {
-  display: inline-block;
-  position: relative;
+#container {
+  width: 100%;
+  height: 230px;
 }
-.header .header_imagen {
-  width: 1280px;
-}
-.header .header_title {
-  position: absolute;
-  top: 70px;
-  left: 50px;
+#container .header .header_title {
   color: #ffffff;
-  margin-left: 34%;
+  text-align: center;
 }
-.header #form {
-  position: absolute;
-  top: 156px;
-  left: 50px;
-  margin-left: 30%;
+#container #form {
+  text-align: center;
 }
-.header #form #ip {
+#container #form #ip {
   font-size: 18px;
   width: 320px;
 }
-.header #form #button {
+#container #form #button {
   font-size: 18px;
   color: #080707;
   margin-left: -8px;
@@ -59,32 +53,11 @@ body {
     font-family: "Rubik", sans-serif;
   }
 
-  .header {
-    display: inline-block;
-    position: relative;
-  }
-  .header .header_imagen {
-    width: 768px;
-    height: 220px;
-  }
-  .header .header_title {
-    position: absolute;
-    top: 70px;
-    left: 50px;
-    color: #ffffff;
-    margin-left: 210px;
-  }
-  .header #form {
-    position: absolute;
-    top: 156px;
-    left: 50px;
-    margin-left: 24vw;
-  }
-  .header #form #ip {
+  #container #form #ip {
     font-size: 15px;
     width: 280px;
   }
-  .header #form #button {
+  #container #form #button {
     font-size: 18px;
     color: #080707;
     margin-left: -8px;
@@ -96,37 +69,6 @@ body {
   }
   #ui .ui_items {
     text-align: center;
-  }
-}
-@media screen and (max-width: 340px) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 96vh;
-    font-family: "Rubik", sans-serif;
-  }
-
-  .header {
-    display: inline-block;
-    position: relative;
-  }
-  .header .header_imagen {
-    width: 340px;
-    height: 220px;
-  }
-  .header .header_title {
-    position: absolute;
-    top: 70px;
-    left: 50px;
-    color: #ffffff;
-    margin-left: -12px;
-  }
-  .header #form {
-    position: absolute;
-    top: 156px;
-    left: 50px;
-    margin-left: -12vw;
   }
 }
 

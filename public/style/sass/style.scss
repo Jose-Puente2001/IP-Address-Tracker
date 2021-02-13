@@ -12,7 +12,9 @@ body{
   width: 100vw;
   height: 100vh;
   font-family: $fuente-title;
-  
+  background-image: url('/images/pattern-bg.png');
+  background-repeat:  no-repeat;
+  overflow: hidden;
 }
 
 #map{
@@ -22,56 +24,45 @@ body{
 }
 
 
-
-
+#container{
+  
+  width: 100%;
+  height: 230px;
+  
 .header{
 
-display: inline-block;
-position: relative;
+.header_title{
+ color: $color-title;
+ text-align: center;
 
-
-.header_imagen{
-
-  width: 1280px;
 }
-
-
-
- .header_title{
-	position: absolute;
-	top: 70px;
-	left: 50px;
-	color: $color-title;
-  margin-left: 34%;
+  
 }
-
-
 
 #form{
 
- position: absolute;
-	top: 156px;
-	left: 50px;
-   margin-left: 30%;
-
+ text-align: center;
 
 #ip{
 
-	font-size: 18px;
+  font-size: 18px;
   width: 320px;
+
 }
 
 #button{
     
-   font-size: 18px;
-   color: $color-button;
-   margin-left: -8px;
-}
-	
+font-size: 18px;
+color: $color-button;
+ margin-left: -8px;
+
+ }
+
+ }
+
 }
 
 
-}
 
 
 #ui{
@@ -87,10 +78,9 @@ position: relative;
 
 
 
+ 
 
-
-
-@media screen and (max-width: 768px){
+@media screen and(max-width: 768px){
 
 body{
   
@@ -103,37 +93,9 @@ body{
 }
 
 
-.header{
-
-display: inline-block;
-position: relative;
-
-
-.header_imagen{
-  
- width: 768px;
- height: 220px; 
-}
-
-
-
-  .header_title{
-  position: absolute;
-  top: 70px;
-  left: 50px;
-  color: $color-title;
-  margin-left: 210px;
-}
-
-
+#container{
 
 #form{
-
- position: absolute;
-  top: 156px;
-  left: 50px;
-   margin-left: 24vw;
-
 
 #ip{
 
@@ -147,14 +109,12 @@ position: relative;
    color: $color-button;
    margin-left: -8px;
 }
-  
-}
-
 
 }
 
+}
 
-  #ui{
+#ui{
 
     flex-direction: column;
     align-items: center;
@@ -167,52 +127,6 @@ position: relative;
 }
 
 
-@media screen and(max-width: 340px){
 
-body{
-  
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 96vh;
-  font-family: $fuente-title;
-  
-}
-
-
-.header{
-
-display: inline-block;
-position: relative;
-
-
-.header_imagen{
-
-  width: 340px;
-  height: 220px;
-}
-
-
-
-  .header_title{
-  position: absolute;
-  top: 70px;
-  left: 50px;
-  color: $color-title;
-  margin-left: -12px;
-}
-
-
-
-#form{
-
- position: absolute;
-  top: 156px;
-  left: 50px;
-   margin-left: -12vw;
-
-}
-}
-}
 
 
