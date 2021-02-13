@@ -10,7 +10,7 @@ body {
     font-family: $fuente-title;
     background-image: url("/images/pattern-bg.png");
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #map {
