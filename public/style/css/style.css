@@ -73,4 +73,17 @@ body {
   }
 }
 
+@media screen and (max-width: 340px) {
+ #container #form #ip {
+    font-size: 15px;
+    width: 270px;
+  }
+  #container #form #button {
+    font-size: 15px;
+    color: #080707;
+    margin-left: -8px;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
