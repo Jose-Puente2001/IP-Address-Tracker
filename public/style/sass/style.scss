@@ -89,3 +89,20 @@ body {
         }
     }
 }
+
+@media screen and(max-width: 340px) {
+    #container {
+        #form {
+            #ip {
+                font-size: 15px;
+                width: 270px;
+            }
+
+            #button {
+                font-size: 15px;
+                color: $color-button;
+                margin-left: -8px;
+            }
+        }
+    }
+}
