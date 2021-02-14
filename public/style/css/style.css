@@ -4,7 +4,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Rubik", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #map {
@@ -78,7 +78,6 @@ body {
   #container #form #button {
     font-size: 15px;
     color: #080707;
-    margin-left: -8px;
     width: 278px;
     margin: auto;
   }
