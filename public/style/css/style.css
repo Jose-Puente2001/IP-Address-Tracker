@@ -6,7 +6,6 @@ body {
   font-family: "Rubik", sans-serif;
   background-image: url("/images/pattern-bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 40%;
   overflow-x: hidden;
 }
 
@@ -17,7 +16,7 @@ body {
 
 #container {
   width: 100%;
-  height: 210px;
+  height: 230px;
 }
 #container .header .header_title {
   color: #ffffff;
@@ -65,9 +64,8 @@ body {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 340px) {
- #container #form #ip {
+  #container #form #ip {
     font-size: 15px;
     width: 270px;
   }
@@ -77,6 +75,5 @@ body {
     margin-left: -8px;
   }
 }
-
 
 /*# sourceMappingURL=style.css.map */
