@@ -4,13 +4,9 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Rubik", sans-serif;
-<<<<<<< HEAD
   background-image: url("/images/pattern-bg.png");
   background-repeat: no-repeat;
-  overflow-x: hidden;
-=======
-  overflow: hidden;
->>>>>>> prueba
+  background-size: cover;
 }
 
 #map {
@@ -84,12 +80,9 @@ body {
   #container #form #button {
     font-size: 15px;
     color: #080707;
-<<<<<<< HEAD
     margin-left: -8px;
-=======
     width: 278px;
     margin: auto;
->>>>>>> prueba
   }
 }
 

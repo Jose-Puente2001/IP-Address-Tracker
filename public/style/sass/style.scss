@@ -8,13 +8,9 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: $fuente-title;
-<<<<<<< HEAD
     background-image: url("/images/pattern-bg.png");
     background-repeat: no-repeat;
-    overflow-x: hidden;
-=======
-    overflow: hidden;
->>>>>>> prueba
+    background-size: cover;
 }
 
 #map {
@@ -68,12 +64,8 @@ body {
 
 /*Responsive*/
 @media screen and(max-width: 768px) {
-<<<<<<< HEAD
-     #container {
-=======
-    #container {
->>>>>>> prueba
-        #form {
+   #container {
+       #form {
             #ip {
                 font-size: 15px;
                 width: 280px;
@@ -108,17 +100,17 @@ body {
             #button {
                 font-size: 15px;
                 color: $color-button;
-<<<<<<< HEAD
                 margin-left: -8px;
-            }
-        }
-    }
-}
-=======
                 width: 278px;
                 margin: auto;
             }
         }
     }
 }
->>>>>>> prueba
+
+    
+              
+       
+   
+
+
