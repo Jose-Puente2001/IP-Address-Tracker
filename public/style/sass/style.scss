@@ -10,6 +10,7 @@ body {
     font-family: $fuente-title;
     background-image: url("/images/pattern-bg.png");
     background-repeat: no-repeat;
+    background-size: 100% 50%;
     overflow-x: hidden;
 }
 
@@ -48,7 +49,7 @@ body {
 #ui {
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 20px;
 
     .ui_items {
         text-align: center;
@@ -57,15 +58,7 @@ body {
 
 /*Responsive*/
 @media screen and(max-width: 768px) {
-    body {
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        height: 96vh;
-        font-family: $fuente-title;
-    }
-
-    #container {
+     #container {
         #form {
             #ip {
                 font-size: 15px;
