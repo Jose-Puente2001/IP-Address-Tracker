@@ -8,7 +8,10 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: $fuente-title;
+    background-image: url("/images/pattern-bg.png");
+    background-repeat: no-repeat;
     overflow: hidden;
+
 }
 
 #map {
@@ -62,8 +65,8 @@ body {
 
 /*Responsive*/
 @media screen and(max-width: 768px) {
-    #container {
-        #form {
+   #container {
+       #form {
             #ip {
                 font-size: 15px;
                 width: 280px;
@@ -104,3 +107,9 @@ body {
         }
     }
 }
+
+              
+       
+   
+
+
