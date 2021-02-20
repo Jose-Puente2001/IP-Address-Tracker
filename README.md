@@ -25,17 +25,17 @@
   Para ejecutar la aplicación ejecute:
 
     
-    
+    ```
     npm start
-    
+    ```
 
-    para correr la aplicacion en modo desarrollo ejecute:
+   para correr la aplicacion en modo desarrollo ejecute:
 	
-    
+    ```
     npm run dev
-    
+    ```
 	
-    Esto comando harà que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al modulo instalado llamado nodemon
+Esto comando harà que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al modulo instalado llamado nodemon
 
 
 1.  Al ejecutar cualquiera de estos dos comando se abrira la aplicacion **
