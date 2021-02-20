@@ -52,10 +52,11 @@ La estructura que encontrarás en el proyecto
     ├── node_modules
     ├── public
     ├── .gitignore
+    ├── README.md
     ├── index.js
     ├── package-lock.json
     ├── package.json
-    └── README.md
+    
 
 1.  **`node_modules`**: Este directorio contiene todos los módulos de código de los que depende su proyecto (paquetes npm) que se instalan automáticamente.
 
@@ -63,9 +64,10 @@ La estructura que encontrarás en el proyecto
 
 3.  **`.gitignore`**: Este archivo le dice a git qué archivos no debe rastrear / no mantener un historial de versiones.
 
+4. **`README.md`**: Un archivo de texto que contiene información de referencia útil sobre su proyecto.
+
 
 4.  **`index.js`**: Este archivo se encargar de ejecutar el servidor de express que a su ve tiene como funciòn servir los archivos estaticos del proyecto.
-
 
 
 5. **`package-lock.json`**: Este es un archivo generado automáticamente basado en las versiones exactas de sus dependencias npm que se instalaron para el proyecto.
@@ -74,13 +76,13 @@ La estructura que encontrarás en el proyecto
 
 
 
-7. **`README.md`**: Un archivo de texto que contiene información de referencia útil sobre su proyecto.
 
 
-## 🛠 Tecnologìas usadas en el proyecto
+## 🛠 Librerìa y Api usada en el proyecto
 
-
+(LeafletJS) para la creaciòn del mapa https://leafletjs.com/
   
+(IPWHOIS) para obtener las direcciones IP https://ipwhois.io/
 
 
 ## 💫 Despligue
