@@ -11,7 +11,7 @@
    Una aplicación de seguimiento de direcciones IP a travès de un mapa de geolocalización.
    
   
-  ![Aquí la descripción de la imagen por si no carga](https://github.com/Jose-Puente2001/imagenes-de-proyectos/blob/main/vista-ejecucion.gif)
+![Gif de como funciona el Proyecto](https://github.com/Jose-Puente2001/imagenes-de-proyectos/blob/main/vista-ejecucion.gif)
   
   
 ## 🚀 Pasos para clonar y correr la aplicación en una máquina local 
