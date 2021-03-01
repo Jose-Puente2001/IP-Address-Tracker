@@ -27,13 +27,20 @@
 2.  **Correr  la aplicación**
 
   Para ejecutar la aplicación ejecute:
-
+  
+        
+    npm install
+   
     
-    
+  seguido del comando:
+  
+        
     npm start
-    
-
-   para correr la aplicacion en modo desarrollo ejecute:
+   
+   
+   
+   
+   O si desea  correr la aplicacion en modo desarrollo ejecute:
 	
    
     npm run dev
