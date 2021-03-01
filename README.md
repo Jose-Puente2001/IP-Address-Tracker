@@ -8,7 +8,7 @@
   IP Address Tracker
 </h1>
 
-   Una aplicación de seguimiento de direcciones IP a travès de un mapa de geolocalización.
+   Una aplicación de seguimiento de direcciones IP a través de un mapa de geolocalización.
    
   
 ![Gif de como funciona el Proyecto](https://github.com/Jose-Puente2001/imagenes-de-proyectos/blob/main/vista-ejecucion.gif)
@@ -40,16 +40,16 @@
    
    
    
-   O si desea  correr la aplicacion en modo desarrollo ejecute:
+   O si desea  correr la aplicación en modo desarrollo ejecute:
 	
    
     npm run dev
     
 	
-Esto comando harà que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al modulo instalado llamado nodemon https://www.npmjs.com/package/nodemon
+Esto comando hará que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al modulo instalado llamado nodemon https://www.npmjs.com/package/nodemon
 
 
-1.  Al ejecutar cualquiera de estos dos comando se abrira la aplicacion 
+1.  Al ejecutar cualquiera de estos dos comando se abrira la aplicación 
 
      `http://localhost:3000`
 
@@ -91,7 +91,7 @@ La estructura que encontrarás en el proyecto
 
 ## 🛠 Librerìa y Api usada en el proyecto
 
-(LeafletJS) para la creaciòn del mapa https://leafletjs.com/
+(LeafletJS) para la creación del mapa https://leafletjs.com/
   
 (IPWHOIS) para obtener las direcciones IP https://ipwhois.io/
 
