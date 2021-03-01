@@ -49,7 +49,7 @@
 Esto comando hará que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al módulo instalado llamado nodemon https://www.npmjs.com/package/nodemon
 
 
-1.  Al ejecutar cualquiera de estos dos comando se abrira la aplicación 
+1.  Al ejecutar cualquiera de estos dos comandos se abrira la aplicación 
 
      `http://localhost:3000`
 
