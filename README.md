@@ -46,7 +46,7 @@
     npm run dev
     
 	
-Esto comando hará que evitamos estar reiniciando el serividor despues de cada cambio, esto es gracias al módulo instalado llamado nodemon https://www.npmjs.com/package/nodemon
+Esto comando hará que evitamos estar reiniciando el serividor después de cada cambio, esto es gracias al módulo instalado llamado nodemon https://www.npmjs.com/package/nodemon
 
 
 1.  Al ejecutar cualquiera de estos dos comandos se abrira la aplicación 
@@ -71,7 +71,7 @@ La estructura que encontrarás en el proyecto
 
 1.  **`node_modules`**: Este directorio contiene todos los módulos de código de los que depende su proyecto (paquetes npm) que se instalan automáticamente.
 
-2.  **`public`**:Este directorio contiene todo el código relacionado con los archivos estaticos del proyecto los archivos del frontend de la aplicacion, en el encontraras  subdirectorio como lo sera la carpeta images, la carpeta src que contiene todos los script del proyecto, la carpeta style que contiene la carpeta sass que tiene el archivo sass encargado de dar estilos al proyecto y la carpeta css con su arhivo css que es el resultado de la compilación del archivo sass y por último el index.html de la aplicación. 
+2.  **`public`**:Este directorio contiene todo el código relacionado con los archivos estaticos del proyecto los archivos del frontend de la aplicacion, en el encontrarás  subdirectorio como lo sera la carpeta images, la carpeta src que contiene todos los script del proyecto, la carpeta style que contiene la carpeta sass que tiene el archivo sass encargado de dar estilos al proyecto y la carpeta css con su arhivo css que es el resultado de la compilación del archivo sass y por último el index.html de la aplicación. 
 
 3.  **`.gitignore`**: Este archivo le dice a git qué archivos no debe rastrear / no mantener un historial de versiones.
 
