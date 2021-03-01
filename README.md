@@ -98,5 +98,4 @@ La estructura que encontrarás en el proyecto
 
 ## 💫 Despligue
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
+![Deploy with Vercel](https://vercel.com/button)
